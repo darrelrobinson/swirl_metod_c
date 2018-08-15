@@ -7,12 +7,12 @@
 
 local({
   fname <- file.path(.get_course_path(),
-  	"swirl_metod_c", "Multiple_Regression", "elimination.R")
+  	"Metod_C", "Multipel_Regression", "elimination.R")
   file.copy(fname, "elimination.R")
   file.edit("elimination.R")
 })
 source("elimination.R")
 galton <- read.csv(file.path(.get_course_path(),
-	"swirl_metod_c", "Multiple_Regression", "galton.csv"))
+	"Metod_C", "Intro_Regression", "galton.csv"))
 trees <- datasets::trees
 trees <- cbind(Constant=rep(1.0, nrow(trees)), trees)

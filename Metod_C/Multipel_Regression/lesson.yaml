@@ -1,9 +1,9 @@
 - Class: meta
-  Course: Metod C
-  Lesson: Multiple Regression
-  Author: Darrel Robinson (Original by Swirl Coders)
+  Course: Regression Models
+  Lesson: Introduction to Multivariable Regression
+  Author: Swirl Coders
   Type: Standard
-  Organization: Uppsala University
+  Organization: Johns Hopkins Bloomberg School of Public Health
   Version: 2.2.0
 
 - Class: text

@@ -7,4 +7,4 @@
 
 # Put initialization code in this file.
 galton <- read.csv(file.path(.get_course_path(), 
-	"swirl_metod_c", "Intro_Regression", "galton.csv"))
+	"Metod_C", "Intro_Regression", "galton.csv"))

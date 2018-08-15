@@ -1,12 +1,19 @@
-# Put custom tests in this file.
-      
-      # Uncommenting the following line of code will disable
-      # auto-detection of new variables and thus prevent swirl from
-      # executing every command twice, which can slow things down.
-      
-      # AUTO_DETECT_NEWVAR <- FALSE
-      
-      # However, this means that you should detect user-created
-      # variables when appropriate. The answer test, creates_new_var()
-      # can be used for for the purpose, but it also re-evaluates the
-      # expression which the user entered, so care must be taken.
+runTest <- function(...)UseMethod("runTest")
+
+runTest.exact <- function(keyphrase,e){
+  is.correct <- FALSE
+  if(is.numeric(e$val)){
+    correct.ans <- eval(parse(text=rightside(keyphrase)))
+    epsilon <- 0.01*abs(correct.ans)
+    is.correct <- abs(e$val-correct.ans) <= epsilon
+  }
+  return(isTRUE(is.correct))
+}
+
+# Returns TRUE if as.expression
+# (e$expr) matches the expression indicated to the right
+# of "=" in keyphrase
+# keyphrase:equivalent=expression
+runTest.equivalent <- function(keyphrase,e) {
+  return(omnitest(rightside(keyphrase)))
+}

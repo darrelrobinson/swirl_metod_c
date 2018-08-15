@@ -1,9 +1,9 @@
 - Class: meta
-  Course: Regression_Models
-  Lesson: Least_Squares_Estimation
-  Author: Swirl Coders
+  Course: Metod C
+  Lesson: Least Squares
+  Author: Darrel Robinson (Original by Swirl Coders)
   Type: Standard
-  Organization: Johns Hopkins Bloomberg School of Public Health
+  Organization: Uppsala University
   Version: 2.2.0
 
 - Class: text

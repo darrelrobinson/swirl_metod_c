@@ -1,10 +1,10 @@
 
 - Class: meta
-  Course: Data Analysis
-  Lesson: Data Visualization
-  Author: Nick Carchedi
+  Course: Metod C
+  Lesson: Data Visualisering
+  Author: Darrel Robinson (Original by Nick Carchedi)
   Type: Standard
-  Organization: JHU Biostatistics
+  Organization: Uppsala University
   Version: 1.0.0
 
 - Class: text

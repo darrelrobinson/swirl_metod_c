@@ -1,9 +1,9 @@
 - Class: meta
-  Course: Data Analysis
-  Lesson: Central Tendency
-  Author: Nick Carchedi
+  Course: Metod C
+  Lesson: Centralitet
+  Author: Darrel Robinson (Original by Nick Carchedi)
   Type: Standard
-  Organization: JHU Biostatistics
+  Organization: Uppsala University
   Version: 1.0.0
 
 - Class: text

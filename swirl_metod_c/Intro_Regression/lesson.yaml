@@ -1,9 +1,9 @@
 - Class: meta
-  Course: Regression Models
-  Lesson: Introduction
-  Author: Swirl Coders
+  Course: Metod C
+  Lesson: Intro Regression
+  Author: Darrel Robinson (Original by Swirl Coders)
   Type: Standard
-  Organization: Johns Hopkins Bloomberg School of Public Health
+  Organization: Uppsala University
   Version: 2.2.0
 
 - Class: text

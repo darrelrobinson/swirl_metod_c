@@ -1,10 +1,10 @@
 
 - Class: meta
-  Course: Open Intro
-  Lesson: Overview of Statistics
-  Author: Nick Carchedi
+  Course: Metod C
+  Lesson: Intro Statistik
+  Author: Darrel Robinson (Original by Nick Carchedi)
   Type: Standard
-  Organization: JHU Biostatistics
+  Organization: Uppsala University
   Version: 1.0.0
 
 - Class: text

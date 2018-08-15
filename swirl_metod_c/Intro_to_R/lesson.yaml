@@ -1,9 +1,9 @@
 - Class: meta
-  Course: R Programming
-  Lesson: Basic Building Blocks
-  Author: Nick Carchedi
+  Course: Metod C
+  Lesson: Intro to R
+  Author: Darrel Robinson (Original by Nick Carchedi)
   Type: Standard
-  Organization: JHU Biostat
+  Organization: Uppsala University
   Version: 2.2.0
 
 - Class: text

@@ -9,7 +9,7 @@
 # here will show up in the user's workspace when he or she begins
 # the lesson.
 galton <- read.csv(file.path(.get_course_path(),
-	"swirl_metod_c", "Least_Squares", "galton.csv"))
+	"swirl metod c", "Least Squares", "galton.csv"))
 gch <- galton$child
 gpa <- galton$parent
 gpa_nor <- (gpa - mean(gpa))/sd(gpa)
@@ -19,11 +19,11 @@ maniflg <- find.package("manipulate",quiet=TRUE)
 if  (isTRUE((Sys.getenv("RSTUDIO") == "1")&&(nchar(maniflg)>0 ))) {
   library(manipulate)
   fname <- file.path(.get_course_path(),
-  	"swirl_metod_c","Least_Squares","slopedemo.R")
+  	"swirl metod c","Least Squares","slopedemo.R")
 } else {
   fname <- file.path(.get_course_path(), 
-  	"swirl_metod_c","Least_Squares","slopedemo_no_mani.R")  
+  	"swirl metod c","Least Squares","slopedemo_no_mani.R")  
 }
 file.edit(fname)
 fname2 <- file.path(.get_course_path(),
-	"swirl_metod_c","Least_Squares","finalplot.R")
+	"swirl metod c","Least Squares","finalplot.R")

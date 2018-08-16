@@ -18,10 +18,11 @@ Then use the navigator window to select the ''Metod_C.swc'' file.
 
 ## Install directly from github
 
-Copy and paste the following two lines directly into the console:
+Copy and paste the following lines directly into the console:
 
 ```
 if(require(swirl) == FALSE) install.packages("swirl")
+library(swirl)
 install_course_github("darrelrobinson", "swirl_metod_c", multi = TRUE)
 ```
 

@@ -5,6 +5,8 @@ This course is intended to give students of Methods C at the Department of Gover
 
 The lessons are a small collection of existing swirl lessons (see www.swirlstats.com) that have been packaged and sorted to follow the methods course material.  
 
+## If you have downloaded the .swc file and saved it to your computer
+
 To install the course, in R:
 ```
 if(require(swirl) == FALSE) install.packages("swirl")
@@ -13,7 +15,10 @@ install_course()
 ```
 Then use the navigator window to select the ''Metod_C.swc'' file.
 
-Alternatively, copy and paste the following two lines directly into the console:
+
+## Install directly from github
+
+Copy and paste the following two lines directly into the console:
 
 ```
 if(require(swirl) == FALSE) install.packages("swirl")

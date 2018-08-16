@@ -3,7 +3,7 @@
 
 This course is intended to give students of Methods C at the Department of Government, Uppsala University a brief introduction to the R programming language while simultaneously providing a resource for studying the course content. 
 
-The lessons are a small collection of existing swirl lessons (see www.swirlstats.com) that have been ordered and packaged.  
+The lessons are a small collection of existing swirl lessons (see www.swirlstats.com) that have been packaged and sorted to follow the methods course material.  
 
 To install the course, in R:
 ```

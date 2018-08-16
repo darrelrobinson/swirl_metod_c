@@ -22,8 +22,10 @@ install_course_github("darrelrobinson", "swirl_metod_c", multi = TRUE)
 
 And the course will install without you having to download a file and use the navigator.  
 
-To begin using the course, sStart swirl and follow the prompts:
+To begin using the course, start swirl using:  
 ```
 swirl()
 ```
+
+and follow the prompts.
 

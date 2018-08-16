@@ -9,7 +9,7 @@ The lessons are a small collection of existing swirl lessons (see www.swirlstats
 
 To install the course, in R:
 ```
-if(require(swirl) == FALSE) install.packages("swirl")
+install.packages("swirl")
 library(swirl)
 install_course()
 ```
@@ -21,7 +21,7 @@ Then use the navigator window to select the ''Metod_C.swc'' file.
 Copy and paste the following lines directly into the console:
 
 ```
-if(require(swirl) == FALSE) install.packages("swirl")
+install.packages("swirl")
 library(swirl)
 install_course_github("darrelrobinson", "swirl_metod_c", multi = TRUE)
 ```

@@ -13,7 +13,16 @@ install_course()
 ```
 Then use the navigator window to select the ''Metod_C.swc'' file.
 
-Start swirl and follow the prompts:
+Alternatively, copy and paste the following two lines directly into the console:
+
+```
+if(require(swirl) == FALSE) install.packages("swirl")
+install_course_github("darrelrobinson", "swirl_metod_c", multi = TRUE)
+```
+
+And the course will install without you having to download a file and use the navigator.  
+
+To begin using the course, sStart swirl and follow the prompts:
 ```
 swirl()
 ```
